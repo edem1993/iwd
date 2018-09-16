@@ -1,0 +1,156 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: #158CC0;
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    margin: 10px;
+}
+
+.ptext {
+    text-align: center;
+    font-size: 16px;
+}
+
+div {
+    display: block;
+}
+
+#navigation {
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    float: right;
+    top: 0;
+    position: fixed;
+    color: #fff;
+    background-color: #158CC0;
+    min-width: 400px;
+}
+
+#header {
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    clear:both;
+    bottom: 0px;
+    color: #fff;
+    padding: 10px;
+    background-color: #158CC0
+}
+
+a  {
+    color: #fff;
+    text-decoration: none;
+}
+
+#floatright {
+    float: right;
+    padding-right: 30px;
+}
+
+#sharksemester{
+    clear: both;
+    position: relative;
+    top: 50%;
+    font-family: Creepster;
+    font-size: 9vw;
+    color: #fff;
+    opacity: 0.7;
+    letter-spacing: 20px;
+    text-shadow: 2px 2px black;
+    transform: translateY(-50%); /*puts text in the middle*/
+}
+
+#shark-div {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    background-image: url(shark-attacks.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#center {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#leftSide {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#rightSide {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#bottom-text {
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#videodiv {
+    clear: both;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-right: auto;
+    margin-bottom: 15vh;
+}
+
+video {
+    width: 90%;
+    
+}
+
+#css-table {
+    clear: both;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border: 1px solid rgb(217, 237, 249);
+    background-color: rgba(217,237,249, .4);
+    font-size: 15px,
+}
+
+
+ol {
+    list-style: none;
+    display: block;
+    text-indent: 10%;
+}
